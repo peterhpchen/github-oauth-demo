@@ -1,8 +1,8 @@
 const http = require("http");
 const url = require("url");
 const https = require("https");
-const { env} = require('process')
-const { clientId, clientSecret } = env
+const { env } = require("process");
+const { clientId, clientSecret } = env;
 
 const server = http.createServer((req, res) => {
   const { code } = url.parse(req.url, true).query;
