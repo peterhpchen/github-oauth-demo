@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "node app.js",
+    "prettier": "prettier --write"
+  },
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
+}
