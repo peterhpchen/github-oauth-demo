@@ -28,12 +28,13 @@ This is the demo for login app by GitHub's OAuth.
 2. Signing GitHub and authorizing access right.
 3. Redirect back to demo site(`http://localhost:3000`).
 4. (Inside)Exchange code for access token.
-5. (Inside)Use token to access GitHub API for user info.
-6. Show the `Hello, {User Name}!` on page.
+5. (Inside)Use token to access GitHub REST API for user name.
+6. (Inside)Use token to access GitHub GraphQL API for user email.
+7. Show the `Hello, {User Name}! Your email is {User Email}.` on page.
 
 ## References
 
-* [GitHub Docs: Authorizing OAuth Apps](https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps)
-* [GitHub Docs: Basics of authentication](https://docs.github.com/en/rest/guides/basics-of-authentication)
-* [Soham Kamani: Implementing OAuth 2.0 with Node.js](https://www.sohamkamani.com/nodejs/oauth/)
-* [Hackernoon: how to use Environment Variables keep your secret keys safe & secure!](https://medium.com/hackernoon/how-to-use-environment-variables-keep-your-secret-keys-safe-secure-8b1a7877d69c)
+- [GitHub Docs: Authorizing OAuth Apps](https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps)
+- [GitHub Docs: Basics of authentication](https://docs.github.com/en/rest/guides/basics-of-authentication)
+- [Soham Kamani: Implementing OAuth 2.0 with Node.js](https://www.sohamkamani.com/nodejs/oauth/)
+- [Hackernoon: how to use Environment Variables keep your secret keys safe & secure!](https://medium.com/hackernoon/how-to-use-environment-variables-keep-your-secret-keys-safe-secure-8b1a7877d69c)
